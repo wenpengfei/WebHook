@@ -1,2 +1,2 @@
 # WebHook
-A node webhook with express
+Node.js app for processing Webhooks
