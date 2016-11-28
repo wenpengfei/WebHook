@@ -26,5 +26,5 @@ app.post('/build', upload.array(), function (req, res, next) {
       console.log('Child process exited with code ' + code);
   });
 
-  res.json(200, {message: 'Git Hook received!'})
+  res.send('Git Hook received!');
 });
