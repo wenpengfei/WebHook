@@ -6,11 +6,12 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "multer": "^1.2.0"
+    "multer": "^1.2.0",
+    "pm2": "^2.1.6"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/.bin/pm2 startOrRestart ./deploy.config.json"
   },
   "author": "catwen",
   "license": "ISC"

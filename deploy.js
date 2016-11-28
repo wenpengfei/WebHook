@@ -9,9 +9,11 @@ app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x
 app.listen(7777, function () {
   console.log('Example app listening on port 7777!');
 });
+
 app.get('/', function(req, res){
   res.send('web hook');
 });
+
 app.post('/build', upload.array(), function (req, res, next) {
   var spawn = require('child_process').spawn,
       deploy = spawn('sh', [ './build.sh' ]);
