@@ -1,10 +1,6 @@
 {
   "name": "WebHook",
   "script": "./deploy.js",
-  "watch": [
-    "./build.sh",
-    "./deploy.js"
-  ],
   "max_restarts": 5,
   "restart_delay": 100,
   "autorestart": false
