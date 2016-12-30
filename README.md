@@ -1,5 +1,5 @@
 # WebHook
-Node.js app for processing Webhooks
+Node app for processing Webhooks
 # Nginx Config
 ```
 server {
@@ -10,4 +10,3 @@ server {
         }
 }
 ```
-then your WebHook url is http://your-domain.com/build

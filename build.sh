@@ -1,6 +1,6 @@
 #! /bin/bash
 
-WEB_PATH='/home/fe/HogRider'
+WEB_PATH='/your/path'
 
 echo 'build start....'
 cd $WEB_PATH
